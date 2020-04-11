@@ -1,0 +1,60 @@
+body{
+    margin:0px;
+    border:none;
+    padding: 0px;
+    /*Default background image */
+     background-image: url(./img/default.jpg);
+     background-size: cover; 
+     background-position: top;
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     transition: background-image 2s;
+  
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin: 10px 0;
+}
+#current-time{
+    margin:10px 0;
+    font-size:30px;
+    font-weight: 600;
+    display: inline-block;
+}
+header{
+    text-align: center;
+}
+#alarm-section{
+    background-color: rgba(223,230,233,0.4);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px 0;
+}
+.alarm-spans{
+    margin: 0px 10px;
+}
+.alarm-button{
+    background-color: #95C6E8;
+    padding:10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin:10px 0;
+    outline: none;
+}
+.alarm-button:hover{
+    cursor: pointer;
+    background-color: #779EBA;
+}
+.alarm-div{
+    margin: 10px 0;
+}
+select option:nth-child(odd){
+    /* background-color:blue; */
+}
+
+#stop-nap, #stop-wakeup , #stop-lunch{
+    display: none;
+}
